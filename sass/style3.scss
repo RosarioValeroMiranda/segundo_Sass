@@ -1,0 +1,21 @@
+/****** 4 - 6 MIXINS Y OPERATORS  *****/
+// Operadores incluidos en el apartado de Mixins
+//Mixin cambia la opacidad de las imagenes con hover
+@mixin opacidad($property) {
+    opacity: $property + 0.2;
+}
+
+// Cambia el color de la letra al hacer hover sobre la barra de navegación
+@mixin hover_nav($property){
+    color: $property;
+}
+
+// Mixin cambia el tamaño letra al hacer hover sobre los objetos de contacto
+@mixin height($property){
+    height: $property;
+}
+
+@mixin bold($property) {
+    font-weight: $property;
+    font-size: 12*2px;
+}
